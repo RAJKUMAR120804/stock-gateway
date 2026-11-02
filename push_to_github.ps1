@@ -21,3 +21,4 @@ Write-Host "========================================================" -Foregroun
 
 Write-Host "Connecting to GitHub..." -ForegroundColor Green
 & $git push -u origin main
+
