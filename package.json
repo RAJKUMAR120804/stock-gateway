@@ -1,0 +1,15 @@
+{
+  "name": "amazon-payment-gateway-monorepo",
+  "version": "1.0.0",
+  "description": "Amazon Design with Customer Details & Simulated Payment Gateway",
+  "scripts": {
+    "dev": "npm --prefix src/client run dev",
+    "client": "npm --prefix src/client run dev",
+    "server": "npm --prefix src/server run dev",
+    "build": "npm --prefix src/client run build"
+  },
+  "keywords": ["amazon", "payment-gateway", "react", "express", "mongodb"],
+  "author": "",
+  "license": "ISC"
+}
+

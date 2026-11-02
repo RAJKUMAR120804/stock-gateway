@@ -1,0 +1,65 @@
+@import "tailwindcss";
+
+/* Global Resets & Amazon Baseline Styling */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #eaeded;
+  color: #0f1111;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;
+}
+
+/* Amazon Theme Specific Colors & Utilities */
+:root {
+  --amazon-dark: #131921;
+  --amazon-light: #232f3e;
+  --amazon-yellow: #ffd814;
+  --amazon-yellow-hover: #f7ca00;
+  --amazon-orange: #f3a847;
+  --amazon-accent: #febd69;
+}
+
+/* Fallback base rules for navigation and layout */
+header {
+  background-color: #131921 !important;
+  color: #ffffff;
+}
+
+a, button {
+  font-family: inherit;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Ensure images in cards don't blow up */
+.h-48 img {
+  max-height: 12rem;
+  width: auto;
+  margin: 0 auto;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
